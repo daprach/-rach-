@@ -7,6 +7,8 @@ The following files are used and entered in the following folder:
 
 https://drive.google.com/drive/folders/1qh-1K2Ph1dp_Qwz-vCL5ZQD9fHmgCXSf
 
+https://drive.google.com/file/d/1ExvKcPPDDoMSeF67r4L55LjkYGdBjH94/view?usp=drivesdk
+
 A. Layout :
   action_rincian.xml
   activity_daftar.xml
