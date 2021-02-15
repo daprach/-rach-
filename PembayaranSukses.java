@@ -2,27 +2,29 @@ package com.example.uasrks_ariyankt;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class PembayaranSukses extends AppCompatActivity {
     protected Cursor cursor;
-    Button next;
+    Button done;
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_pembayaran_sukses);
 
-        next = (Button) findViewById(R.id.next);
+        done = (Button) findViewById(R.id.done);
 
-        next.setOnClickListener(new View.OnClickListener() {
+        done.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent inte = new Intent(MainActivity.this, Login.class);
+                Intent inte = new Intent(PembayaranSukses.this, Toko.class);
                 startActivity(inte);
             }
         });

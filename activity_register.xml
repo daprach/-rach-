@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/yo"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Create Accoount"
+        android:textSize="35dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginHorizontal="30dp"/>
+
+    <EditText
+        android:id="@+id/first"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/bg_btn_bac"
+        android:hint="First Name"
+        android:drawableStart="@drawable/ic_person"
+        android:paddingStart="12dp"
+        android:drawablePadding="12dp"/>
+
+    <EditText
+        android:id="@+id/last"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/bg_btn_bac"
+        android:drawableStart="@drawable/ic_person"
+        android:drawablePadding="12dp"
+        android:hint="Last Name"
+        android:paddingStart="12dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_btn_bac"
+        android:hint="Masukan Email Address"
+        android:drawableStart="@drawable/ic_person"
+        android:paddingStart="12dp"
+        android:drawablePadding="12dp"/>
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_btn_bac"
+        android:hint="Masukan Password"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/ic_lock"
+        android:paddingStart="12dp"
+        android:drawablePadding="12dp"/>
+
+    <TextView
+        android:id="@+id/btn_register_regis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="CREATE ACCOUNT"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_btn"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginVertical="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum mempunyai akun?"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="150dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btn_login_regis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="LOGIN"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_btn"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginVertical="15dp"/>
+</LinearLayout>
