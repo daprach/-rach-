@@ -1,7 +1,6 @@
 Coursework
 
-In the WiFi Network Application that I created with the name "Circleci", it uses Android Studio which is where to make the Front End.
-The Front End that I built follows or matches the wireframe design, workflow. The following is the link to the previous UTS folder 
+The Online Shop application that I created with the name "DG STORE" uses Android Studio which is where to make the Front End. The Front End that I built follows or conforms to the wireframe design, workflow, and documentation requirements that I created before UAS. The following is the link of the previous UTS folder which contains workflows, wireframes, and documentation needs:
 
 The following files are used and entered in the following folder:
 
@@ -16,27 +15,28 @@ A. Layout :
   activity_main.xml
   activity_menu.xml
   activity_profile.xml
-  activity_paketan.xml
   
 B. Java :
   MainActivity.java
-  Daftar.java
   Login.java
-  Paketan.java
-  Profile.java
-  Menu.java
-  Rincian.java
+  Register.java
+  Toko.java
+  DetailBarang.java
+  ListBarang.java
+  Pembayaran.java
+  PembayaranSukses.java
   
 C. Drawable :
-  HP.png
+  done.png
   Icon.png
-  ic_launcher_foreground.xml
-  ic_launcher_background.xml
+  ic_lock.xml
+  ic_person.xml
   latar.xml
   lock.xml
   person.xml
   
 D. Values :
-  strings.xml
   colors.xml
+  dimens.xml
+  strings.xml
   styles.xml
